@@ -1,5 +1,3 @@
-
-
  class Point
    include Comparable
       
@@ -83,4 +81,3 @@
 
 
  end
-
