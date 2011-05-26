@@ -29,3 +29,8 @@ end
 
 Dir["*.[c|h]"].each do ...
 Dir["**/**"].each do ...
+
+lines = IO.readlines(path)
+lines.each_with_index do |line, i|
+end
+
