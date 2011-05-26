@@ -26,3 +26,6 @@ class File
     res
   end
 end
+
+Dir["*.[c|h]"].each do ...
+Dir["**/**"].each do ...
