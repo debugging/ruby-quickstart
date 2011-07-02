@@ -1,6 +1,10 @@
 # Decorator Pattern
 # easily add enhancements to an existing object
 # layer features atop one another to construct exactly what you need
+# layer features on to a basic object
+#
+# drawbacks: using or building/assembling all these classes into a working w# whole i.e. client has to pull of the pieces together
+# also, performance overhead of long chain of decorators
 #
 # scenerio: need a class to write out lines to a file
 # some lines might need to be numbered, others with timestampls, and
